@@ -1,4 +1,202 @@
-<div class="pic_or_text">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <!-- cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Fitness</title>
+</head>
+<body class="intertext">
+    <header>
+        <!-- header part -->
+         <nav class="fitness-nav display-flex">
+            <h1>Fitness</h1>
+            <ul class="display-flex">
+                <li><a href="#" id="extranav" class="navlinks">Home</a></li>
+                <li><a href="#" class="navlinks">Service</a></li>
+                <li><a href="#" class="navlinks">Contact</a></li>
+                <li><a href="#" class="navlinks">About</a></li>
+            </ul>
+            
+                <i class="fa-solid fa-bars menubar" id="hamburger"></i>
+        </div>
+         </nav>
+         <section class="hero-content display-flex">
+           <div class="left-content">
+           <h1 class="hero-text">Get body in <br>
+        <span class="miama-text">shape</span>& stay healthy</h1>
+            <p class="hero-small-text">
+                A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!   
+            </p>
+           <div class="btn">
+            <button class="btn-1">
+                Join Club Now
+            </button>
+            <button class="btn-2">
+                Download App
+            </button>
+           </div>
+        </div>
+        <div class="right-content">
+            <img src="./images/Images 2.png" alt="">
+            <div>
+                
+                <div class="transparent-1">
+                    <h1>500+</h1>
+                    <p>Free Workout Videos</p>
+                </div>
+                <div class="transparent-2 display-flex">
+                    <div class="dot"></div>
+                    <div>
+                        <h1>350+</h1> 
+                        <p>Video tutorial</p>
+                    </div>
+                   
+                            
+                        </div>
+                    
+                    
+                </div>
+            </div>
+           
+        </div>
+         </section>
+    </header> 
+    <main>
+        <!-- main part -->
+         <section class="change_habits">
+            <div class="habit_text">
+                <h1>Change Your Habits
+                </h1>
+                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or <br>
+                    access to a gym.</p>
+            </div>
+            <div class="habit-contents">
+                <div class="habit-content">
+                    <img src="./images/image 3.png" alt="">
+                    <h1>Movement</h1>
+                    <p>We believe fitness should be <br>
+                        accessible to everyone</p>
+                </div>
+                <div class="habit-content">
+                    <img src="./images/image 2.png" alt="">
+                    <h1>Time</h1>
+                    <p>We believe fitness should be <br>
+                        accessible to everyone</p>
+                </div>
+                <div class="habit-content">
+                    <img src="./images/image 4.png" alt="">
+                    <h1>Practice</h1>
+                    <p>We believe fitness should be <br>
+                        accessible to everyone</p>
+                </div>
+                <div class="habit-content">
+                    <img src="./images/image 5.png" alt="">
+                    <h1>Weight Loss
+                    </h1>
+                    <p>We believe fitness should be <br>
+                        accessible to everyone</p>
+                </div>
+            </div>
+         </section>
+         <section class="run_part">
+            <div class="left_run">
+            <h1>Run an Extra 
+                Mile Easily</h1>
+            <p>We believe fitness should be accessible to everyone, <br>everywhere, regardless of income or access to a gym. With <br>hundreds of professional workouts.</p>
+            <button class="btn-3">Join Now</button>
+        </div>
+            <div class="right_run">
+                <img src="./images/run.jpg" alt="">
+            </div>
+           
+         </section>
+         <section class="BMI_calculator">
+            <div class="habit_text">
+                <h1>BMI Calculator
+                </h1>
+                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or <br> access to a gym.</p>
+            </div>
+            <div class="calculator_part display-flex">
+
+           
+            <div class="calculator_part_chart">
+                <h1>BMI Calculator Chart</h1>
+                <table border="1" >
+                    <thead class="heading_part">
+                        <tr>
+                            <th>BMI</th>
+                            <th>Weight</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Below 18.5</td>
+                           <td>Underweight</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>18.5 - 24.9</td>
+                            <td>Healthy</td>
+                        </tr>
+                        <tr>
+                            <td>18.5 - 24.9</td>
+                            <td>Overweight</td>
+                        </tr>
+                        <tr>
+                            <td>18.5 - 24.9</td>
+                            <td>Obese</td>
+                        </tr>
+                    </tbody>
+                </table>
+                </div>
+                <div class="BMI">
+                    <h1>Calculate your BMI</h1>
+                    <p>We believe fitness should be accessible to everyone, everywhere, regardless of <br> income or access to a gym. </p>
+                    <form action="" class="form_container">
+                        <div class="form_f1">
+                          <input type="text" placeholder="Height/cm" class="form_gap" >
+                          <input type="text" placeholder="Weight/kg" class="form_gap ">
+                        </div>
+                    
+                        <div class="form-f2">
+                            
+                          <input type="text" placeholder="Age" class="form_gap" >
+                        
+                          <input type="text" placeholder="Age" class="form_gap" >
+                         <!-- <div class="sex_class display-flex"> -->
+                             <!-- <label for="cars">Sex</label>  -->
+                             <!-- <select name="cars" style="background-color: transparent;"> -->
+                              <!-- <option value="#"></option>   -->
+                         <!-- </div> -->
+                         <!--   <div class="sex_class display-flex">
+                            <label for="cars">Select an activity factor</label>
+                             <select name="cars" style="background-color: transparent;">
+                              <option value="#"></option>  
+                         </div> -->
+                    
+                        </div>
+                     
+                        
+                        
+            </div>
+            
+           
+        </form>
+         </section>
+         <section class="meet_managment">
+            <div class="meet_text">
+                <h1>Meet Our Team</h1>
+                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+            </div>
+                <div class="pic_collections">
+                   <div class="pic_or_text">
                     <div class="textofpic">
                         <h1>Jerome Bell</h1>
                     <p>Trainer</p>
@@ -6,19 +204,576 @@
                     <img src="./images/trainer1.png" alt="" class="pic_collection">
                     
                    </div> 
+                   <div class="pic_or_text">
+                    <div class="textofpic">
+                        <h1>Cameron Williamson</h1>
+                    <p>Trainer</p>
+                    </div>
+                    <img src="./images/trainer1.png" alt="" class="pic_collection">
+                    
+                   </div> 
                     <div class="pic_or_text">
                         <div class="textofpic">
-                            <h1>Jerome Bell</h1>
+                            <h1>Darrell Steward</h1>
                         <p>Trainer</p>
                         </div>
                     <img src="./images/trainer3.png" alt="" class="pic_collection">
                    </div>
                     <div class="pic_or_text">
+                        <div class="textofpic">
+                            <h1>Dianne Russell</h1>
+                        <p>Trainer</p>
+                        </div>
                     <img src="./images/trainer4.png" alt="" class="pic_collection">
                    </div> 
                    <div class="pic_or_text">
+                    <div class="textofpic">
+                        <h1>Cody Fisher</h1>
+                    <p>Trainer</p>
+                    </div>
                     <img src="./images/trainer5.png" alt="" class="pic_collection">
                    </div> 
                    <div class="pic_or_text">
+                    <div class="textofpic">
+                        <h1>Theresa Webb</h1>
+                    <p>Trainer</p>
+                    </div>
                     <img src="./images/trainer6.png" alt="" class="pic_collection">
                    </div> 
+                   
+                    
+                </div>
+              
+           
+         </section> 
+
+    </main>
+
+    <footer >
+        <!-- footer part -->
+         <div class="footer_container ">
+
+        
+         <div class="footer_text">
+            <h1 class="fitness"> Fitness</h1>
+            <p>We believe fitness should be accessible to everyone,<br> everywhere, regardless of income or access to a gym. With <br> hundreds of professional workouts.</p>
+         </div>
+         <div class="footer_part">
+            <h1>Get Started</h1>
+            <ul>
+                <li><a class="links" href="#">Service</a></li>
+                <li><a class="links" href="#">Contact Us</a></li>
+                <li><a class="links" href="#">Affliate Program</a></li>
+                <li>
+                    <a class="links" href="#">About Us</a></li>
+            </ul>
+         </div>
+         <div class="footer_part">
+            <h1>Get Started</h1>
+            <ul >
+                <li><a class="links" href="#"></a>Platform</li>
+                <li><a class="links" href="#" ></a> Fitness </li>
+                <li><a class="links" href="#"></a>Workout Library</li>
+                <li><a class="links" href="#"></a>App Design </li>
+            </ul>
+            
+         </div>  
+            
+        </div>
+      
+        <p class="fitness_2024">All right reserved @Fitness 2024</p>
+       
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+csssssssssss
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+   
+   
+}
+.intertext{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+
+  .display-flex{
+    display: flex;
+  }
+  .fitness-nav{
+   align-items: center;
+   justify-content: space-between;
+   width: 80%;
+   margin: 57px auto;
+  }
+  .fitness-nav h1{
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: #E6533C;
+  }
+  .fitness-nav ul{
+    list-style: none;
+    border: 0.5px  dotted rgb(153, 152, 152);
+    border-radius: 18px;
+    padding: 6px 6px;
+
+  }
+  .fitness-nav ul a{
+    color: #fff;
+    text-decoration: none;
+    padding:  0px 20px;
+    font-size: 22px;
+     cursor: pointer; 
+}
+#extranav{
+    background-color: #E6533C;
+    border: none;
+    border-radius: 18px;
+}
+#hamburger{
+  font-size: 24px;
+color: white;
+ display: none;  
+}
+.hero-content{
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.left-content{
+  color: white;
+  width: 50%;
+  margin: auto;
+}
+.left-content h1{
+font-size: 4.9rem;
+font-weight: 900;
+
+}
+.miama-text{
+  font-family: 'Miama', sans-serif;
+  padding: 0px 10px;
+  font-weight: 200;
+  font-size: 78px;                                                                                
+}
+.hero-small-text{
+  font-size: 1.0rem;
+  line-height: 25px;
+  color: rgb(233, 230, 227);
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+.btn{
+  /* width: 224px; */
+}
+.btn-1{
+  width: 224px;
+  padding: 16px;
+  background-color: #E6533C;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  font-size: 16px;
+}
+.btn-2{
+  width: 224px;
+  padding: 16px;
+  border-radius: 30px;
+  background-color: transparent;
+  border: 1px solid white;
+  font-size: 16px;
+  color: white;
+}
+
+
+
+.right-content{
+  width: 50%;
+  margin: auto;
+ padding-left: 300px;
+ text-align: center;
+}
+.transparent-1{
+  position: absolute;
+  margin-top: -400px;
+  margin-left: 200px;
+  color: white;
+  width: 12rem;
+  padding: 12px;
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+}
+.transparent-1 h1{
+  font-size: 2.5rem;
+ margin-bottom: 10px;
+}
+.transparent-1 p{
+  font-size: 0.8rem;
+  color: rgb(233, 230, 227);
+ margin-bottom: 10px;
+}
+.transparent-2 h1{
+  font-size: 2.5rem;
+  color: white;
+ margin-bottom: 10px;
+}
+.transparent-2 p{
+  font-size: 0.8rem;
+  color: rgb(233, 230, 227);
+ margin-bottom: 10px;
+}
+.transparent-2{
+  
+  position: absolute;
+  margin-top: -173px;
+  margin-left: -70px;
+  color: white;
+  width: 16rem;
+  padding: 12px;
+  backdrop-filter: blur(10px);
+align-items: center;
+justify-content: center;
+  border-radius: 12px;
+}
+.dot {
+  height: 40px;
+  width: 40px;
+  background-color: #E6533C;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 10px;
+}
+.habit_text, .meet_managment{
+  text-align: center;
+
+}
+.habit_text, .meet_managment h1{
+  font-size: 3rem;
+  color: #ffff;
+  padding-bottom: 14px;
+}
+.habit_text, .meet_managment p{
+  font-size: 16px;
+  color: #ffff ;
+  opacity: 50%;
+  padding-bottom: 58px;
+  text-align: left;
+}
+.meet_managment p{
+  font-size: 16px;
+  color: #ffff ;
+  opacity: 50%;
+  padding-bottom: 58px;
+  text-align: center;
+}
+
+.habit-contents{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px;
+}
+.habit-content{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.habit-content img{
+  width: 180px;
+  height: 180px;
+  border: 3px solid rgba(34, 34, 34, 1);
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.habit-content h1{
+  font-size: 1.2rem;
+  color: #ffff;
+  margin-bottom: 6px;
+}
+.habit-content p{
+  font-size: 16px;
+  color: #ffff ;
+  opacity: 50%;
+  padding-bottom: 58px;
+  
+}
+.run_part{
+  width: 80%;
+  display: flex;
+  border-radius: 18px;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  background-color: rgba(34, 34, 34, 1);
+  margin-bottom: 58px;
+}
+.left-run{
+  width: 40%;
+  padding: 40px;
+
+}
+.left_run h1{
+  font-size: 3rem;
+  color: #ffff;
+  margin-bottom: 14px;
+  
+}
+.left_run p{
+  font-size: 16px;
+  color: #ffff ;
+  opacity: 50%;
+  margin-bottom: 34px;
+}
+.btn-3{
+  width: 224px;
+  padding: 16px;
+  background-color: #E6533C;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  font-size: 18px;
+}
+.right_run{
+  width: 40%;
+padding: 30px;
+}
+.right_run img{
+  width: 100%;
+  height: 370px;
+  border-radius: 20px;
+}
+.calculator_part{
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 20px auto;
+  background-color: rgba(34, 34, 34, 1);
+  width: 100%;
+  padding: 50px;
+  
+}
+.calculator_part h1{
+  color: #fff;
+  margin-bottom: 30px;
+}
+.calculator_part p{
+  font-size: 16px;
+  color: #ffff ;
+  opacity: 50%;
+}
+thead{
+  color: #ffff ;
+  opacity: 100%;
+  font-weight: 400; 
+}
+tbody{
+  color: #ffff ;
+  opacity: 50%;
+}
+th,td {
+  padding: 10px;
+  text-align: left;
+}
+
+.BMI h1{
+  font-size: 28px;
+  color: #fff;
+  margin-bottom: 14px;
+}
+.BMI p{
+  font-size: 14px;
+  color: #ffff ;
+  opacity: 50%;
+  margin-bottom: 34px;
+}
+.form_container{
+  padding: 0px 0px 20px 0px;
+  /* background-color: #E6533C; */
+  margin: auto;
+  width: 100%;
+  border-radius: 5px;
+}
+.form_container label{
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 400;
+  
+}
+.form_gap
+{
+  padding: 8px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  margin-bottom: 12px;
+width: 100%;
+margin: 4px;
+
+
+}
+.form_f1{
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  
+}
+.form-f2{
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  /* background-color: rgba(255, 255, 255, 0.1); */
+}
+select{
+  background-color: rgba(34, 34, 34, 1);
+  border: none;
+  color: rgb(153, 152, 152);;
+
+}
+.sex_class {
+  background-color: rgba(255, 255, 255, 0.1);
+ width: 100%;
+ padding:4px;
+ border-radius: 5px;
+ color: rgb(153, 152, 152);
+ font-weight: 400;
+ font-size: 14px;
+ margin-top: 4px;
+}
+.pic_collections{
+
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  width: 60%;
+  margin: 0 auto;
+  gap: 10px;
+  background-color: rgba(34, 34, 34, 1);
+  border-radius: 18px;
+  padding: 20px;
+  margin-bottom: 80px;
+}
+.pic_collections img{
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 18px;
+}
+.textofpic{
+   position: relative; 
+  top: 21rem;
+  left: 10px;
+  display: inline; 
+  line-height: 18px;
+  text-align: left;
+}
+.textofpic h1{
+  font-size: 1.6rem;
+  font-weight: 700;
+  
+  text-align: left;
+}
+.textofpic p{
+  font-size: 1.0rem;
+  font-weight: 300;
+  
+  text-align: left;
+}
+.form_container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  width: 60%;
+  margin: 30px;
+width: 70%;
+}
+footer h1{
+  color: #FFFFFF;
+}
+.footer_part li {
+  color: #FFFFFF;
+  opacity: 50%;
+  font-weight: 300;
+  list-style: none;
+  text-align: left;
+  font-size: 16px;
+  padding-top:5px ;
+  
+} 
+footer{
+  width: 100%;
+  background-color: rgba(34, 34, 34, 1);
+  padding: 40px;
+  text-align: center;
+  justify-content: space-between;
+  
+}
+.footer_container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid gray;
+  padding: 10px;
+  
+}
+.fitness{
+  color: #E6533C;
+  font-size: 70px;
+  font-weight: 900;
+  text-align: left;
+  text-wrap: warp;
+}
+.footer_text p{
+  color: #FFFFFF;
+  opacity: 50%;
+  font-weight: 300;
+ 
+  text-align: left;
+
+}
+.links{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+ font-size: 16px
+}
+.fitness_2024{
+  padding-top: 10px;
+  font-size: 16px;
+  color: #FFFFFF;
+  opacity: 50%;
+}
+
+
+
