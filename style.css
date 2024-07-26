@@ -22,13 +22,19 @@ body{
     font-variation-settings:
       "slnt" 0;
   }
+  .menu{
+    visibility: hidden; 
+    background-color: white;
+    /* display: inline-block; */
+    color: #fff;
+  }
 
   .display-flex{
     display: flex;
   }
   .fitness-nav{
    align-items: center;
-   justify-content: space-between;
+   justify-content:space-between;
    width: 80%;
    margin: 57px auto;
   }
@@ -42,6 +48,7 @@ body{
     border: 0.5px  dotted rgb(153, 152, 152);
     border-radius: 18px;
     padding: 6px 6px;
+   margin-left: 800px;
 
   }
   .fitness-nav ul a{
@@ -484,4 +491,55 @@ footer{
   font-size: 16px;
   color: #FFFFFF;
   opacity: 50%;
+}
+
+/* media query for mobile device */
+@media only screen and (max-width: 576px) {
+  body {
+  background-color: black;
+  }
+  .menu{
+    visibility: inherit;
+  }
+  .navlinks{
+    visibility: hidden;
+  }
+  .fitness-nav ul{
+    border: none;
+  }
+  .hero-content{
+    display: block;
+    align-items: start  ;
+    justify-content: start;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .hero-content h1{
+    font-size: 36px;
+    text-align: left;
+  }
+  .hero-content p{
+    font-size: 16px;
+  }
+  .btn{
+    display: flex;
+    width: 100%;
+  }
+  .left-content{
+    
+    width: 100%;
+    margin: 4px;
+  }
+  .left-content h1{
+  font-size: 2.5rem;
+  font-weight: 700;
+  }
+
+  .right-content{
+    width: 100%;
+    margin: auto;
+   padding-left: 0;
+   text-align: center;
+  }
 }
