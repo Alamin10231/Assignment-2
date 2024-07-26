@@ -1,0 +1,24 @@
+<div class="pic_or_text">
+                    <div class="textofpic">
+                        <h1>Jerome Bell</h1>
+                    <p>Trainer</p>
+                    </div>
+                    <img src="./images/trainer1.png" alt="" class="pic_collection">
+                    
+                   </div> 
+                    <div class="pic_or_text">
+                        <div class="textofpic">
+                            <h1>Jerome Bell</h1>
+                        <p>Trainer</p>
+                        </div>
+                    <img src="./images/trainer3.png" alt="" class="pic_collection">
+                   </div>
+                    <div class="pic_or_text">
+                    <img src="./images/trainer4.png" alt="" class="pic_collection">
+                   </div> 
+                   <div class="pic_or_text">
+                    <img src="./images/trainer5.png" alt="" class="pic_collection">
+                   </div> 
+                   <div class="pic_or_text">
+                    <img src="./images/trainer6.png" alt="" class="pic_collection">
+                   </div> 

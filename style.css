@@ -170,21 +170,30 @@ justify-content: center;
   display: inline-block;
   margin: 10px;
 }
-.habit_text{
+.habit_text, .meet_managment{
   text-align: center;
 
 }
-.habit_text h1{
+.habit_text, .meet_managment h1{
   font-size: 3rem;
   color: #ffff;
   padding-bottom: 14px;
 }
-.habit_text p{
+.habit_text, .meet_managment p{
   font-size: 16px;
   color: #ffff ;
   opacity: 50%;
   padding-bottom: 58px;
+  text-align: left;
 }
+.meet_managment p{
+  font-size: 16px;
+  color: #ffff ;
+  opacity: 50%;
+  padding-bottom: 58px;
+  text-align: center;
+}
+
 .habit-contents{
   display: grid;
   grid-template-columns: repeat(4,1fr);
@@ -358,4 +367,41 @@ select{
  font-weight: 400;
  font-size: 14px;
  margin-top: 4px;
+}
+.pic_collections{
+
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  width: 60%;
+  margin: 0 auto;
+  gap: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 18px;
+  padding: 20px;
+}
+.pic_collections img{
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 18px;
+}
+.textofpic{
+   position: relative; 
+  top: 21rem;
+  left: 10px;
+  display: inline; 
+  line-height: 18px;
+  text-align: left;
+}
+.textofpic h1{
+  font-size: 1.6rem;
+  font-weight: 700;
+  
+  text-align: left;
+}
+.textofpic p{
+  font-size: 1.0rem;
+  font-weight: 300;
+  
+  text-align: left;
 }
