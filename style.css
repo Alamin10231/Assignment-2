@@ -513,7 +513,7 @@ footer{
     justify-content: start;
     width: 100%;
     margin: 0;
-    padding: 0;
+    padding: 0 20px;
   }
   .hero-content h1{
     font-size: 36px;
@@ -538,8 +538,176 @@ footer{
 
   .right-content{
     width: 100%;
-    margin: auto;
+    margin: 20px 20px;
    padding-left: 0;
    text-align: center;
   }
+  .habit-contents{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 100%;
+  }.run_part{
+    width: 100%;
+    display: flex;
+    flex-direction: column;   
+    margin: 0 auto;
+    margin-bottom: 58px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 0 20px;
+  }
+  .btn-3{
+    width: 90%;
+    
+  }
+  .right_run{
+    width: 100%;
+  }
+  .right_run img{
+    width: 100%;
+    height: 320px;
+
+  }
+  .habit_text h1{
+    text-align: left;
+    font-size: 30px;
+    padding: 0 20px;
+
+  }
+  .habit_text p{
+   font-size: 16px;
+    padding: 0 20px 20px 20px;
+    text-align: left;
+  }
+  .calculator_part{
+    display: flex;
+   flex-direction: column;
+   padding: 20px 20px 20px 20px;
+   margin: 20px auto;
+    width: 100%;
+  }
+  .calculator_part_chart{
+    width: 100%;
+    text-align: left;
+    /* background-color: red; */
+    margin: auto;
+    margin-bottom: 20px;
+    }
+    .calculator_part h1{
+      /* padding: 20px; */
+      font-size: 30px;
+      text-align: left;
+      
+    }
+    .calculator_part p{
+      font-size: 16px;
+      color: #ffff ;
+      opacity: 50%;
+    }
+
+    /* form  */
+    /* .form_container label{
+
+      margin-bottom: 5px;
+      font-weight: 400;
+      background-color: black;
+      width: 100%;
+      
+    } */
+    .form_container{
+      padding: 0px 0px 0px 0px;
+      /* background-color: #E6533C; */
+      margin: auto;
+      width: 100%;
+    
+    }
+    .form_gap
+    {
+     
+    display: flex;
+    flex-direction: column;
+
+    
+    
+    }
+    .form_f1{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      
+    }
+    .form-f2{
+      display: flex;
+      flex-direction: column;
+    }
+    /* meet managment */
+    .habit_text h1, .meet_managment{
+      text-align: center;   
+    }
+    .meet_managment h1{
+      font-size: 2rem;
+    }
+    .meet_managment p{
+      font-size: 15px;
+      text-align: center;
+     
+    }
+    .pic_collections{
+
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      width: 100%;
+    }
+    .pic_collections img{
+      width: 300px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 18px;
+    }
+    .textofpic{
+      position: relative; 
+     top: 18rem;
+     left: 60px;
+     display: inline; 
+     line-height: 18px;
+     text-align: left;
+   }
+    .textofpic h1{
+      font-size: 1.1rem;   
+      text-align: left;
+    }
+    .textofpic p{
+      font-size: 0.8rem;   
+      text-align: left;
+    }
+    /* FOOTER PART */
+    
+    footer h1{
+      text-align: left;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .footer_container{
+      display: block;
+      flex-direction: column;
+      margin: auto;
+    }
+    .fitness{
+
+      font-size: 40px;
+      font-weight: 800;
+      text-align: left;
+    }
+    .footer_text p{
+     font-size: 16px;
+      text-align: left;
+    }
+    .links{
+     font-size: 16px;
+    }
+    .fitness_2024{
+      text-align: left;
+      width: 100%;
+    }
 }
