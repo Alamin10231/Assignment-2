@@ -10,10 +10,15 @@ body{
     background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 100%;
-   
-   
+    max-width: 100%;  
 }
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
+ }
 .intertext{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -23,10 +28,11 @@ body{
       "slnt" 0;
   }
   .menu{
-    visibility: hidden; 
+   visibility: hidden; 
     background-color: white;
     /* display: inline-block; */
     color: #fff;
+    
   }
 
   .display-flex{
@@ -108,7 +114,7 @@ font-weight: 900;
   border: none;
   color: white;
   font-size: 16px;
-}
+} 
 .btn-2{
   width: 224px;
   padding: 16px;
@@ -126,9 +132,12 @@ font-weight: 900;
   margin: auto;
  padding-left: 300px;
  text-align: center;
+ position: sticky;
 }
 .transparent-1{
+
   position: absolute;
+ 
   margin-top: -400px;
   margin-left: 200px;
   color: white;
@@ -159,6 +168,7 @@ font-weight: 900;
 .transparent-2{
   
   position: absolute;
+
   margin-top: -173px;
   margin-left: -70px;
   color: white;
@@ -496,10 +506,13 @@ footer{
 /* media query for mobile device */
 @media only screen and (max-width: 576px) {
   body {
-  background-color: black;
+  
   }
   .menu{
-    visibility: inherit;
+   
+background-color:black;
+    visibility: visible;
+    margin-left: -1090px;
   }
   .navlinks{
     visibility: hidden;

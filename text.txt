@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font link -->
+        <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--font awesome-->
     <title>Fitness</title>
 </head>
 <body class="intertext">
@@ -24,7 +28,7 @@
                 <li><a href="#" class="navlinks">About</a></li>
             </ul>
             
-                <i class="fa-solid fa-bars menubar" id="hamburger"></i>
+            <div id="menu" class="menu  cursor-pointer"><img class="w-6  " src="./images/menu-unfold-2-line.png" alt=""></div>
         </div>
          </nav>
          <section class="hero-content display-flex">
@@ -159,36 +163,37 @@
                 <div class="BMI">
                     <h1>Calculate your BMI</h1>
                     <p>We believe fitness should be accessible to everyone, everywhere, regardless of <br> income or access to a gym. </p>
-                    <form action="" class="form_container">
-                        <div class="form_f1">
-                          <input type="text" placeholder="Height/cm" class="form_gap" >
+                    <form action="" class="form_container ">
+                        <div class="form_f1  ">
+                          <input type="text" placeholder="Height/cm" class="form_gap" > 
                           <input type="text" placeholder="Weight/kg" class="form_gap ">
                         </div>
                     
                         <div class="form-f2">
                             
-                          <input type="text" placeholder="Age" class="form_gap" >
+                          <input type="text" placeholder="Age" class="form_gap" > 
                         
                           <input type="text" placeholder="Age" class="form_gap" >
-                         <!-- <div class="sex_class display-flex"> -->
-                             <!-- <label for="cars">Sex</label>  -->
-                             <!-- <select name="cars" style="background-color: transparent;"> -->
-                              <!-- <option value="#"></option>   -->
-                         <!-- </div> -->
-                         <!--   <div class="sex_class display-flex">
+                          <div class="sex_class display-flex"> 
+                              <label for="cars">Sex</label>  
+                              <select name="cars" style="background-color: transparent;"> 
+                             <option value="#"></option>   
+                          </div> 
+                          <div class="sex_class display-flex">
                             <label for="cars">Select an activity factor</label>
                              <select name="cars" style="background-color: transparent;">
                               <option value="#"></option>  
-                         </div> -->
+                         </div> 
                     
                         </div>
                      
                         
-                        
+                    </form>      
             </div>
             
            
-        </form>
+        
+        </div>
          </section>
          <section class="meet_managment">
             <div class="meet_text">
@@ -287,16 +292,7 @@
 </body>
 </html>
 
-
-
-
-
-
-
 csssssssssss
-
-
-
 
 
 
@@ -313,10 +309,15 @@ body{
     background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 100%;
-   
-   
+    max-width: 100%;  
 }
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
+ }
 .intertext{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -325,13 +326,19 @@ body{
     font-variation-settings:
       "slnt" 0;
   }
+  .menu{
+    visibility: hidden; 
+    background-color: white;
+    /* display: inline-block; */
+    color: #fff;
+  }
 
   .display-flex{
     display: flex;
   }
   .fitness-nav{
    align-items: center;
-   justify-content: space-between;
+   justify-content:space-between;
    width: 80%;
    margin: 57px auto;
   }
@@ -345,6 +352,7 @@ body{
     border: 0.5px  dotted rgb(153, 152, 152);
     border-radius: 18px;
     padding: 6px 6px;
+   margin-left: 800px;
 
   }
   .fitness-nav ul a{
@@ -473,21 +481,21 @@ justify-content: center;
   display: inline-block;
   margin: 10px;
 }
-.habit_text, .meet_managment{
+.habit_text h1, .meet_managment{
   text-align: center;
 
 }
-.habit_text, .meet_managment h1{
+.habit_text h1, .meet_managment h1{
   font-size: 3rem;
   color: #ffff;
   padding-bottom: 14px;
 }
-.habit_text, .meet_managment p{
+.habit_text p, .meet_managment p{
   font-size: 16px;
   color: #ffff ;
   opacity: 50%;
   padding-bottom: 58px;
-  text-align: left;
+  text-align: center;
 }
 .meet_managment p{
   font-size: 16px;
@@ -576,13 +584,18 @@ padding: 30px;
   border-radius: 20px;
 }
 .calculator_part{
+  display: flex;
   align-items: center;
   justify-content: space-evenly;
   margin: 20px auto;
   background-color: rgba(34, 34, 34, 1);
   width: 100%;
   padding: 50px;
-  
+  width: 80%;
+}
+.calculator_part_chart{
+width: 100%;
+margin-left: 200px;
 }
 .calculator_part h1{
   color: #fff;
@@ -606,7 +619,10 @@ th,td {
   padding: 10px;
   text-align: left;
 }
-
+.BMI{
+  width: 100%;
+  text-align: left;
+}
 .BMI h1{
   font-size: 28px;
   color: #fff;
@@ -617,6 +633,7 @@ th,td {
   color: #ffff ;
   opacity: 50%;
   margin-bottom: 34px;
+
 }
 .form_container{
   padding: 0px 0px 20px 0px;
@@ -624,6 +641,10 @@ th,td {
   margin: auto;
   width: 100%;
   border-radius: 5px;
+ 
+
+
+
 }
 .form_container label{
   display: block;
@@ -638,7 +659,7 @@ th,td {
   background-color: rgba(255, 255, 255, 0.1);
   border: none;
   margin-bottom: 12px;
-width: 100%;
+width: 100%px;
 margin: 4px;
 
 
@@ -646,14 +667,15 @@ margin: 4px;
 .form_f1{
   width: 100%;
   /* background-color: red; */
-  display: flex;
+ padding: 8px;
+ text-align: left;
   align-items: center;
   
 }
 .form-f2{
   width: 100%;
   /* background-color: red; */
-  display: flex;
+padding: 8px;
   align-items: center;
   /* background-color: rgba(255, 255, 255, 0.1); */
 }
@@ -775,5 +797,222 @@ footer{
   opacity: 50%;
 }
 
+/* media query for mobile device */
+@media only screen and (max-width: 576px) {
+  body {
+  
+  }
+  .menu{
+ 
+    background-color: red;
+  }
+  .navlinks{
+    visibility: hidden;
+  }
+  .fitness-nav ul{
+    border: none;
+  }
+  .hero-content{
+    display: block;
+    align-items: start  ;
+    justify-content: start;
+    width: 100%;
+    margin: 0;
+    padding: 0 20px;
+  }
+  .hero-content h1{
+    font-size: 36px;
+    text-align: left;
+  }
+  .hero-content p{
+    font-size: 16px;
+  }
+  .btn{
+    display: flex;
+    width: 100%;
+  }
+  .left-content{
+    
+    width: 100%;
+    margin: 4px;
+  }
+  .left-content h1{
+  font-size: 2.5rem;
+  font-weight: 700;
+  }
 
+  .right-content{
+    width: 100%;
+    margin: 20px 20px;
+   padding-left: 0;
+   text-align: center;
+  }
+  .habit-contents{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 100%;
+  }.run_part{
+    width: 100%;
+    display: flex;
+    flex-direction: column;   
+    margin: 0 auto;
+    margin-bottom: 58px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 0 20px;
+  }
+  .btn-3{
+    width: 90%;
+    
+  }
+  .right_run{
+    width: 100%;
+  }
+  .right_run img{
+    width: 100%;
+    height: 320px;
 
+  }
+  .habit_text h1{
+    text-align: left;
+    font-size: 30px;
+    padding: 0 20px;
+
+  }
+  .habit_text p{
+   font-size: 16px;
+    padding: 0 20px 20px 20px;
+    text-align: left;
+  }
+  .calculator_part{
+    display: flex;
+   flex-direction: column;
+   padding: 20px 20px 20px 20px;
+   margin: 20px auto;
+    width: 100%;
+  }
+  .calculator_part_chart{
+    width: 100%;
+    text-align: left;
+    /* background-color: red; */
+    margin: auto;
+    margin-bottom: 20px;
+    }
+    .calculator_part h1{
+      /* padding: 20px; */
+      font-size: 30px;
+      text-align: left;
+      
+    }
+    .calculator_part p{
+      font-size: 16px;
+      color: #ffff ;
+      opacity: 50%;
+    }
+
+    /* form  */
+    /* .form_container label{
+
+      margin-bottom: 5px;
+      font-weight: 400;
+      background-color: black;
+      width: 100%;
+      
+    } */
+    .form_container{
+      padding: 0px 0px 0px 0px;
+      /* background-color: #E6533C; */
+      margin: auto;
+      width: 100%;
+    
+    }
+    .form_gap
+    {
+     
+    display: flex;
+    flex-direction: column;
+
+    
+    
+    }
+    .form_f1{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      
+    }
+    .form-f2{
+      display: flex;
+      flex-direction: column;
+    }
+    /* meet managment */
+    .habit_text h1, .meet_managment{
+      text-align: center;   
+    }
+    .meet_managment h1{
+      font-size: 2rem;
+    }
+    .meet_managment p{
+      font-size: 15px;
+      text-align: center;
+     
+    }
+    .pic_collections{
+
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      width: 100%;
+    }
+    .pic_collections img{
+      width: 300px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 18px;
+    }
+    .textofpic{
+      position: relative; 
+     top: 18rem;
+     left: 60px;
+     display: inline; 
+     line-height: 18px;
+     text-align: left;
+   }
+    .textofpic h1{
+      font-size: 1.1rem;   
+      text-align: left;
+    }
+    .textofpic p{
+      font-size: 0.8rem;   
+      text-align: left;
+    }
+    /* FOOTER PART */
+    
+    footer h1{
+      text-align: left;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .footer_container{
+      display: block;
+      flex-direction: column;
+      margin: auto;
+    }
+    .fitness{
+
+      font-size: 40px;
+      font-weight: 800;
+      text-align: left;
+    }
+    .footer_text p{
+     font-size: 16px;
+      text-align: left;
+    }
+    .links{
+     font-size: 16px;
+    }
+    .fitness_2024{
+      text-align: left;
+      width: 100%;
+    }
+}
