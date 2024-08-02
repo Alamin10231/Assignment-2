@@ -768,7 +768,7 @@ grid-column-end: 6;
 .text_1{
   position: absolute;
   bottom: 40px;
-  left: -40px;
+  left: -70px;
   font-size: 14px;
   font-weight: 500;
   transform: translateX(-50% ,50%);
@@ -776,7 +776,7 @@ grid-column-end: 6;
 .text_2{
   position: absolute;
   bottom: 130px;
-  left: -40px;
+  left: -70px;
   font-size: 14px;
   font-weight: 500;
   transform: translateX(-50% ,50%);
@@ -785,7 +785,7 @@ grid-column-end: 6;
   /* visibility: hidden; */
   position: absolute;
   bottom: 60px;
-  left: -10px;
+  left: -30px;
   font-size: 14px;
   font-weight: 500;
   transform: translateX(-50% ,50%);
@@ -795,7 +795,7 @@ grid-column-end: 6;
   /* visibility: hidden; */
   position: absolute;
   bottom: 60px;
-  left: -10px;
+  left: -30px;
   font-size: 14px;
   font-weight: 500;
   transform: translateX(-50% ,50%);
