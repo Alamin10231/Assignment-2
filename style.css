@@ -354,14 +354,12 @@ padding: 30px;
   left: -120px;
   font-size: 20px;
   font-weight: 500;
-  transform: translateX(-50% ,50%);
-  color: #E6533C;
-  
+  transform: translateX(-50% ,50%); 
 }
 .text_2{
   position: absolute;
-  bottom: 300px;
-  left: -230px;
+  bottom: 400px;
+left: -250px;
   font-size: 20px;
   font-weight: 500;
   transform: translateX(-50% ,50%);
@@ -379,7 +377,7 @@ padding: 30px;
 }
 .text_4{
   position: absolute;
-  bottom: 500px;
+  bottom: 100px;
   left: 200px;
   font-size: 20px;
   font-weight: 500;
